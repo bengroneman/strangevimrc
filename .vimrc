@@ -10,7 +10,7 @@ set backspace=indent,eol,start
 let mapleader = ','
 
 set number
-set tabstop=2 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " ----------------- VISUALS----------------- "  
 
