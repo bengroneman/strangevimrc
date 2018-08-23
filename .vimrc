@@ -24,3 +24,7 @@ highlight nonText ctermbg=NONE
 
 nmap <C-n> :NERDTreeToggle<cr>
 
+augroup autosourcing
+    autocmd!
+    autocmd BufWritePost .vimrc source %
+augroup END
