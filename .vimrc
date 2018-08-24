@@ -21,6 +21,8 @@ colorscheme onedark
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
+" Allows for highlighting your search query"
+set hlsearch
 
 nmap <C-n> :NERDTreeToggle<cr>
 
