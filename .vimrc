@@ -15,9 +15,9 @@ set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 " ----------------- VISUALS----------------- "  
 
 set t_Co=256
-set background=dark
 
-colorscheme onedark
+set background=dark
+colorscheme onedark 
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
