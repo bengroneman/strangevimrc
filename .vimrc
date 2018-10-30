@@ -17,10 +17,11 @@ set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set t_Co=256
 
 set background=dark
-colorscheme onedark 
+colorscheme gruvbox
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
+
 " Allows for highlighting your search query"
 set hlsearch
 
