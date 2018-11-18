@@ -12,6 +12,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'hawkins/Touchdown.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'udalov/kotlin-vim'
+Plugin 'yggdroot/indentline'
+Plugin 'wolf-dog/nighted.vim'
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()
 filetype plugin indent on
