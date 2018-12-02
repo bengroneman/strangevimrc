@@ -6,6 +6,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'henrynewcomer/vim-theme-papaya'
 Plugin 'posva/vim-vue'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'pangloss/vim-javascript'
@@ -14,7 +15,6 @@ Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'udalov/kotlin-vim'
 Plugin 'yggdroot/indentline'
-Plugin 'wolf-dog/nighted.vim'
 Plugin 'scrooloose/syntastic'
 
 call vundle#end()

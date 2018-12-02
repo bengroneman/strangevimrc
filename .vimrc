@@ -1,4 +1,3 @@
-
 set nocompatible
 
 so ~/.vim/plugins.vim
@@ -7,8 +6,12 @@ syntax enable
 
 set backspace=indent,eol,start
 
+" Easy access to paste when using system clipboard "
+set paste
+
 let mapleader = ','
 
+" My preferences for tabs n such "
 set number
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
@@ -17,7 +20,7 @@ set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set t_Co=256
 
 set background=dark
-colorscheme nighted
+colorscheme gruvbox
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
@@ -25,6 +28,7 @@ highlight nonText ctermbg=NONE
 " Allows for highlighting your search query"
 set hlsearch
 
+" Easy access to nerdtree "
 nmap <C-n> :NERDTreeToggle<cr>
 
 " START Syntastic plugin recommended settings "
@@ -38,6 +42,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 " END Syntastic plugin recommended settings "
 
+" Automagically sources our vimrc file "
 augroup autosourcing
     autocmd!
     autocmd BufWritePost .vimrc source %
