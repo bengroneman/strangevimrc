@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'udalov/kotlin-vim'
 Plugin 'yggdroot/indentline'
 Plugin 'scrooloose/syntastic'
+Plugin 'vimwiki/vimwiki'
 
 call vundle#end()
 filetype plugin indent on
