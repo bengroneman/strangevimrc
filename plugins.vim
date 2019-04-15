@@ -10,13 +10,14 @@ Plugin 'henrynewcomer/vim-theme-papaya'
 Plugin 'posva/vim-vue'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'pangloss/vim-javascript'
-Plugin 'hawkins/Touchdown.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'udalov/kotlin-vim'
 Plugin 'yggdroot/indentline'
 Plugin 'scrooloose/syntastic'
 Plugin 'vimwiki/vimwiki'
+Plugin 'tpope/vim-markdown'
+Plugin 'prettier/vim-prettier'
 
 call vundle#end()
 filetype plugin indent on
