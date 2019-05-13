@@ -20,7 +20,7 @@ set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set t_Co=256
 
 set background=dark
-colorscheme gruvbox
+colorscheme papaya
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
@@ -28,8 +28,15 @@ highlight nonText ctermbg=NONE
 " Allows for highlighting your search query"
 set hlsearch
 
-" Easy access to nerdtree "
-nmap <C-n> :NERDTreeToggle<cr>
+" Ctrl-P Ignores Certain Folders n Files "
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = {
+	\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+	\ 'file': '\v\.(exe|so|dll)$',
+	\ 'link': 'some_bad_symbolic_links',
+	\ }
 
 " START Syntastic plugin recommended settings "
 set statusline+=%#warningmsg#
