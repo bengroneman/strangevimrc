@@ -20,7 +20,8 @@ set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set t_Co=256
 
 set background=dark
-colorscheme papaya
+"colorscheme papaya
+colorscheme peaksea
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
@@ -38,6 +39,15 @@ let g:ctrlp_custom_ignore = {
 	\ 'link': 'some_bad_symbolic_links',
 	\ }
 
+
+" Remapping keys
+nnoremap <leader>z :Goyo<cr>
+map <leader>nn :NERDTreeToggle<cr>
+
+
+" Plugin settings
+let g:NERDTreeWinPos = "right"
+
 " START Syntastic plugin recommended settings "
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -47,6 +57,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
 " END Syntastic plugin recommended settings "
 
 " Automagically sources our vimrc file "
