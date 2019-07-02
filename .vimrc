@@ -44,6 +44,9 @@ let g:ctrlp_custom_ignore = {
 nnoremap <leader>z :Goyo<cr>
 map <leader>nn :NERDTreeToggle<cr>
 
+" Goyo settings
+Goyo 120x70%
+
 
 " Plugin settings
 let g:NERDTreeWinPos = "right"
