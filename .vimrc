@@ -13,7 +13,7 @@ let mapleader = ','
 
 " My preferences for tabs n such "
 set number
-set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " ----------------- VISUALS----------------- "  
 
@@ -39,6 +39,8 @@ let g:ctrlp_custom_ignore = {
 	\ 'link': 'some_bad_symbolic_links',
 	\ }
 
+" Ignores any file in the .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Remapping keys
 nnoremap <leader>z :Goyo<cr>

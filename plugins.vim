@@ -5,6 +5,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
+Plugin 'posva/vim-vue'
 Plugin 'pangloss/vim-javascript'
 Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/syntastic'
